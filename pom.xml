@@ -266,6 +266,11 @@ org.eclipse.jdt.core.compiler.compliance=1.7
 		</plugins>
 	</build>
 	<repositories>
+		<repository>
+			<id>aliyunCentral</id>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<name>aliyun</name>
+		</repository>
       <repository>
          <id>central</id>
          <name>Maven2 Central Repository</name>
@@ -278,6 +283,11 @@ org.eclipse.jdt.core.compiler.compliance=1.7
       </repository>
    </repositories>
    <pluginRepositories>
+	   <pluginRepository>
+		   <id>aliyunCentral</id>
+		   <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		   <name>aliyun</name>
+	   </pluginRepository>
       <pluginRepository>
          <id>central</id>
          <url>http://repo1.maven.org/maven2</url>
